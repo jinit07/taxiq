@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/india.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  text-align: center;
+  overflow: hidden; /* Ensure the blur effect doesn't overflow */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: inherit; /* Inherit the background image */
+  filter: blur(10px); /* Adjust blur radius as needed */
+  z-index: -1; /* Ensure the blur effect is behind the text */
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Light color overlay with some transparency */
+  z-index: -1; /* Ensure the overlay is behind the text */
+}
+
+.hero h1,
+.hero p {
+  position: relative;
+  z-index: 1; /* Ensure text is above the blur effect */
+  font-size: 2em;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.4); /* Additional shadow for depth */
+}
+
+.hero p {
+  font-size: 2.4em;
+}
+
+.hero .btn {
+  padding: 0px 20px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Add transparency for better readability */
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 2em;
+}

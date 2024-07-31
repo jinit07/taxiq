@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #ffffffe5;
+  padding: 10px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin: 10px;
+  justify-content: space-between; /* Space between logo and links */
+}
+
+.logo img {
+  padding-left: 10;
+  width: 100px; /* Set the logo width */
+  height: 30px; /* Maintain aspect ratio */
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 15px; /* Add horizontal spacing between links */
+}

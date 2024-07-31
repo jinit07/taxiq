@@ -1,0 +1,27 @@
+.features {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.features h2 {
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 5px 0;
+  border-image-width: 100%;
+}
+.img_1 {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/corporate_Tax.jpg");
+}
+.img_2 {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/corporate_Tax.jpg");
+}
+.img_3 {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/corporate_Tax.jpg");
+}

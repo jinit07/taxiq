@@ -1,0 +1,62 @@
+.blog {
+  padding: 50px;
+  text-align: center;
+}
+
+.blog h2 {
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-item {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.blog-item .content {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.blog-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.blog-item p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Specific styles for each blog item */
+.gst {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/Goods-And-Service-Tax-GST.jpg");
+}
+
+.corporate-tax {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/corporate_Tax.jpg");
+}
+
+.income-tax {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/income-tax.jpg");
+}
+
+.statutory-levies {
+  background-image: url("/home/jinit/Desktop/TaxIQ/taxiq/Staffing-compliance.jpg");
+}
